@@ -1,0 +1,14 @@
+$myBackGround1 : beige;
+$myHeight1 : 200px;
+$myBackGround2 : olive;
+$myHeight2 : 700px;
+
+.myStyle1 {
+    background-color: $myBackGround1;
+    height: $myHeight1;
+}
+
+.myStyle2 {
+    background-color: $myBackGround2;
+    height: $myHeight2;
+}
