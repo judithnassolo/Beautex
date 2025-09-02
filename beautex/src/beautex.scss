@@ -1,14 +1,203 @@
 $myBackGround1 : beige;
 $myHeight1 : 200px;
-$myBackGround2 : olive;
-$myHeight2 : 700px;
+$myDisplay1: flex;
+$myJustifyContent1: center;
+$myAlignItem1: center;
+$myBackGround2 : lightcoral;
+$myHeight2 : 70%;
+$myDisplay2: flex;
+$myAlignItem2: stretch;
+$myPlaceContent2: center;
+$myBackGround1a: wheat;
+$myheight1a : 30%;
+$myTextAlign1a : center;
+$myPadding1a: 0.5%;
+$myBackGroundP0: crimson;
+$myWidth1a: 100%;
+$myWidthP0: 81%;
+$myHeightP0: 590px;
+$myBackGroundP1 :indianred;
+$myHeightP1: 560px;
+$myWidthP1: 80%;
+$myDisplayP1: flex;
+$myJustify-contentP1: space-around;
+$myAlignItemP1: center;
+$myBackgroundBx: peachpuff;
+$myHeightBx: 300px;
+$myWidthBx: 250px;
+$myPaddingBx: 10px;
+$myBorderRadiusBx: 15px;
 
 .myStyle1 {
     background-color: $myBackGround1;
     height: $myHeight1;
+    display: $myDisplay1;
+    justify-content: $myJustifyContent1;
+    align-items: $myAlignItem1;
+}
+
+.myStyle1a {
+    background-color: $myBackGround1a;
+    height: $myheight1a;
+    width: $myWidth1a;
+    display: flex;
+    padding-left: 30px;
+}
+
+.coName1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+
+.logo1 {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.button1 {
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 90px;
+    height: 35px;
+    background-color: khaki;
+    font-size: 20px;
+}
+
+.input1 {
+    font-size: 30px;
+    width: 400px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-top: 15px;
+    // background-image: url('/images/searchicon.png');
+    // background-position: 10px 10px;
+    // background-repeat: no-repeat;
+    // padding: 12px 20px 12px 40px;
+}
+
+.icon1 {
+    width: 40px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.accountIcon {
+    width: 45px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.myAccountInfo {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: $myBackGround1a;
+    border: none;
+}
+
+
+.help {
+    height: 30px;
+    margin-left: 20px;
+    // border-radius: 6px;
+    font-size: 20px;
+    margin-top: 15px;
+    width: 70px;
+    background-color: $myBackGround1a;
+    border: none;
+}
+
+.cart {
+    height: 30px;
+    margin-left: 20px;
+    // border-radius: 6px;
+    font-size: 20px;
+    margin-top: 15px;
+    width: 90px;
+    border: none;
+    background-color: $myBackGround1a;
 }
 
 .myStyle2 {
     background-color: $myBackGround2;
     height: $myHeight2;
+    place-content: $myPlaceContent2;
+    justify-content: $myJustify-contentP1;
+    margin: auto;
+}
+
+.parent0 {
+    background-color: $myBackGroundP0;
+    width: $myWidthP1;
+    height: $myHeightP0;
+    border-radius: $myBorderRadiusBx;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.parent0pic {
+    width: 1200px;
+    height: $myHeightP0;
+    border-radius: $myBorderRadiusBx;
+}
+
+.parent1 {
+    background-color: $myBackGroundP1;
+    display: $myDisplayP1;
+    // justify-content: $myJustify-contentP1;
+    // align-items: $myAlignItemP1;
+    // height: $myHeightP1;
+    width: $myWidthP1;
+    padding: $myPaddingBx;
+    border-radius: $myBorderRadiusBx;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 40px;
+}
+
+.boxes {
+    background-color: $myBackgroundBx;
+    height: $myHeightBx;
+    width: $myWidthBx;
+    // padding: $myPaddingBx;
+    border-radius: $myBorderRadiusBx;
+    float: left;
+    margin: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.boxes1 {
+    height: 85%;
+    width: 100%;
+    border-radius: $myBorderRadiusBx;
+}
+
+.boxes :hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.myCategories {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.login {
+    background-color: orange;
+    border-radius: $myBorderRadiusBx;
+    padding: 2px;
 }
